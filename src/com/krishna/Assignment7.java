@@ -25,10 +25,12 @@ public class Assignment7 {
                     double amount;
                     switch (option){
                         case 1:
+                            System.out.println("Enter the Amount to withdraw:");
                             amount = scanner.nextDouble();
                             obj1.withdrawal(amount);
                             break;
                         case 2:
+                            System.out.println("Enter the Amount to deposit:");
                             amount = scanner.nextDouble();
                             obj1.deposit(amount);
                             break;
